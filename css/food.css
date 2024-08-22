@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+   
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+
+}
+nav .menu a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: monospace;
+    color: black;
+    margin: 0 10px;
+}
+.banner{
+    background: url(../image/pngtree-5g-big-data-internet-era-png-image_4205119.png);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}

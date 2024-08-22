@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #ff8800;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar h1 {
+    height: 45px;
+    line-height: 45px;
+    width: 205px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 18px;
+    color: white;
+    background: #0000001f;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 151px;
+}
+
+.navbar a {
+    height: 55px;
+    width: 261px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-left: 264px;
+    margin-top: -37px;
+    font-size: 12px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+.banner {
+    background: url(../image/bg.jpg);
+    width: 100%;
+    height: 395px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    font-family: sans-serif;
+    color: white;
+    padding: 147px 0 0 355px;
+    font-size: 34px;
+    font-weight: 100;
+    text-shadow: 2px 2px #222;
+}
+
+.banner h2 {
+    font-family: sans-serif;
+    padding: 12px 0 0 528px;
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+    text-shadow: 2px 2px #222222b5;
+}
+
+.banner input {
+    background: rgba(0, 0, 0, 0.7);
+    width: 480px;
+    height: 31px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding-left: 14px;
+    font-size: 12px;
+    margin-top: 14px;
+    color: white;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.521);
+}
+
+.middle h1 {
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #444444;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 189px;
+    background-attachment: fixed;
+}
+
+.middle h2 {
+    color: #666666;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    background-attachment: fixed;
+}
+
+.box1 {
+    height: 204px;
+    width: 303px;
+    border: 1px solid #80808080;
+    float: left;
+    margin: 9px 15px -49px;
+    margin-top: 65px;
+    background-attachment: fixed;
+}
+
+
+.box1 img {
+    width: 300px;
+    padding: 3px 1px 0px 3px;
+    background-attachment: fixed;
+}
+
+.box1 h1 {
+    margin: -31px 0 0 115px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+    text-shadow: 2px 2px #1010108f;
+    background-attachment: fixed;
+}
+
+
+.box1 button {
+    margin: 59px 0 0 -257px;
+    width: 153px;
+    height: 42px;
+    font-size: 17px;
+    border-radius: 43px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    background: #ff8800;
+    border: none;
+    cursor: pointer;
+    background-attachment: fixed;
+}
+
+.note {
+    background: #0000000a;
+    width: 100%;
+    height: 210px;
+    margin-top: -94%;
+    background-attachment: fixed;
+}
+
+.note p {
+    font-style: italic;
+    margin: 181% 18% 9px;
+    font-size: 20px;
+    width: 50rem;
+    text-align: center;
+    color: #666666;
+    padding-top: 71px;
+    background-attachment: fixed;
+}
+
+.note h1 {
+    font-style: italic;
+    font-style: italic;
+    font-size: 17px;
+    width: 989px;
+    text-align: center;
+    color: #666666;
+    padding-left: 244px;
+    font-weight: 100;
+    background-attachment: fixed;
+}
+
+.last {
+    width: 100%;
+    background: whitesmoke;
+    height: 145px;
+    margin-top: -101px;
+    background-attachment: fixed;
+}
+
+.last p {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #666666;
+    margin: 140px 0 0 252px;
+    padding-top: 82px;
+    background-attachment: fixed;
+    cursor: text;
+}
+
+.last h1 {
+    margin-top: -40px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-left: 255px;
+    color: #ff8800;
+    word-spacing: 5px;
+    background-attachment: fixed;
+    cursor: pointer;
+}
+
+.last h2 {
+    margin: -16px 0 0 297px;
+    font-weight: 100;
+    font-size: 15px;
+    background-attachment: fixed;
+}

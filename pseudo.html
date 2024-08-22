@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            border: 10px solid;
+            width: 700px;
+            height: 400px;
+        }
+        p::before{
+            content: 'PN 123456u8';
+            background-color: red;
+            display: block;
+            font-size: 60px;
+        }
+        p::after{
+            content: 'mits';
+            background-color: red;
+            display: block;
+            font-size: 60px;
+        }
+
+
+        p::first-line{
+            color: blue;
+            font-variant: small-caps;
+        }
+        p::first-letter{
+            color: red;
+            font-size: xx-large;
+        }
+        h3::before{
+            content: url(image/coca-cola-logo-1.png);
+        }
+        h4::after{
+            content: url(image/coca-cola-logo-1.png);
+        }
+        p::after{
+            content: url(image/coca-cola-logo-1.png);
+        }
+    </style>
+</head>
+<body>
+    <h1>pseudo before and after</h1>
+    <p>hello gwalior itm hello gwalior Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odio delectus beatae illo deleniti repudiandae</p>
+
+    <p style="font-size: 18px; text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sapiente enim id iusto cumque iure? Id, laboriosam laudantium dignissimos autem sed inventore quia animi illo numquam alias temporibus nesciunt dolore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi necessitatibus amet porro? Impedit sed porro, molestiae saepe consequatur eligendi laborum temporibus dicta aspernatur autem! Modi earum perferendis iusto qui libero?</p>
+
+    <h3>heelo how are you?</h3>
+    <h4>hello how are you?</h4>
+
+    <a href="" target="_blank">hello</a>
+</body>
+</html>

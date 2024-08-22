@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India-Watch TV Shows ONline, Watch Movies Online</title>
+    <!--icon-->
+    <link rel="icon" href="image/bgr_png-transparent-logo-netflix-logos-and-brands-icon-removebg-preview.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            background: black;
+        }
+
+        .banner {
+            background-image: linear-gradient(rgba(0, 0, 0, 1), rgb(6 6 6 / 43%), rgb(0 0 0 / 89%)), url(image/IN-en-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_a67d8c9e-8121-4a74-98e4-8005eb2df227_large.jpg);
+            width: 100%;
+            height: 740px;
+            margin-top: -155px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        nav .items button {
+            width: 87px;
+            height: 36px;
+            background-color: #e40a14;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-family: system-ui;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            margin-left: -112px;
+        }
+
+        nav .items {
+            display: flex;
+            justify-content: space-between;
+            padding: 18px 180px;
+        }
+
+        nav .items .language {
+            position: relative;
+            right: -29%;
+        }
+
+        nav .items .language select {
+            width: 126px;
+            height: 37px;
+            text-align: center;
+            padding-left: 24px;
+            margin-top: 0px;
+            font-size: 19px;
+            font-weight: 400;
+            font-family: system-ui;
+            background-color: #0d0d0dab;
+            color: white;
+            border: 1px solid #ffffff40;
+            border-radius: 9px;
+        }
+
+        .banner h1 {
+            padding-top: 356px;
+            color: white;
+            text-align: center;
+            font-size: 43px;
+            font-family: sans-serif;
+            font-weight: 800;
+        }
+
+        .banner h2 {
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+            font-weight: 100;
+            font-size: 23px;
+            padding-left: 17px;
+            padding-top: 17px;
+        }
+
+        .banner p {
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+            font-size: 20px;
+            padding-top: 25px;
+        }
+
+        .banner input {
+            background-color: rgb(0 0 0 / 64%);
+            margin-left: 553px;
+            margin-top: 22px;
+            width: 23%;
+            height: 53px;
+            color: white;
+            border: 1px solid #80808087;
+            border-radius: 4px;
+            padding-left: 17px;
+        }
+
+        ::placeholder {
+            color: rgba(255, 255, 255, 0.758);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .banner button {
+            font-size: 18px;
+            width: 183px;
+            height: 53px;
+            border: none;
+            border-radius: 3px;
+            color: white;
+            background-color: #e40a14;
+            font-family: sans-serif;
+            cursor: pointer;
+        }
+
+        .advertise .box2 h1,
+        h2 {
+            color: white;
+
+        }
+
+        .advertise {
+            border-top: 11px solid #80808047;
+            height: 595px;
+            padding: 55px 184px;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .advertise .box1 .video-1 {
+            position: absolute;
+            top: 762px;
+            right: 192px;
+            background: transparent;
+            z-index: -1;
+        }
+
+        .advertise .box2 h2 {
+            font-family: system-ui;
+            font-weight: 400;
+            width: 590px;
+        }
+
+        .advertise .box2 h1 {
+            font-family: system-ui;
+            font-size: 50px;
+            margin-bottom: 13px;
+            margin-top: 168px;
+            font-weight: 800
+        }
+
+        .advertise-item2 {
+            border-top: 11px solid #80808047;
+            height: 595px;
+            padding: 55px 250px;
+            display: flex;
+        }
+
+
+        .advertise-item2 .box1 .download {
+            border: 1px solid #ffffffbd;
+            border-radius: 16px;
+            width: 342px;
+            height: 110px;
+            position: relative;
+            top: -140px;
+            right: -148px;
+            background: black;
+        }
+
+        .advertise-item2 .box1 .download img {
+            height: 104px;
+            width: 82px;
+            padding-left: 15px;
+            padding-top: 7px;
+        }
+
+        .advertise-item2 .box1 .download h1 {
+            color: white;
+            margin: -73px 98px;
+            font-size: 18px;
+            font-family: system-ui;
+            font-weight: 500;
+        }
+
+        .advertise-item2 .box1 .download h2 {
+            margin: 73px 99px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: system-ui;
+            color: #0071eb;
+        }
+
+        .advertise-item2 .box1 .gif {
+            position: relative;
+            top: -220px;
+            left: 418px;
+        }
+
+        .advertise-item2 .box1 .video-2 {
+            position: absolute;
+            top: 1371px;
+            left: 366px;
+            z-index: -1;
+            background: transparent;
+        }
+
+        .advertise-item2 .box2 h2 {
+            font-family: system-ui;
+            font-weight: 400;
+            width: 590px;
+        }
+
+        .advertise-item2 .box2 h1 {
+            font-family: system-ui;
+            font-size: 50px;
+            margin-bottom: 13px;
+            margin-top: 168px;
+            font-weight: 800;
+            color: white;
+        }
+
+        .log-in p {
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+            font-size: 20px;
+            padding-top: 25px;
+        }
+
+        .log-in input {
+            background-color: rgb(0 0 0 / 64%);
+            margin-left: 548px;
+            margin-top: 22px;
+            width: 23%;
+            height: 53px;
+            color: white;
+            border: 1px solid #80808087;
+            border-radius: 4px;
+            padding-left: 17px;
+        }
+
+        ::placeholder {
+            color: rgba(255, 255, 255, 0.758);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .log-in button {
+            font-size: 18px;
+            width: 183px;
+            height: 53px;
+            border: none;
+            border-radius: 3px;
+            color: white;
+            background-color: #e40a14;
+            font-family: sans-serif;
+            cursor: pointer;
+            margin-bottom: 143px;
+        }
+
+        .footer-content {
+            border-top: 11px solid #80808047;
+            background: black;
+            font-family: system-ui;
+            color: #ffffffa8;
+            padding-top: 79px;
+            margin-bottom: 118px;
+
+        }
+
+        .footer-content .contact {
+            padding-left: 252px;
+        }
+
+        .footer-content .items {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 27px 76px;
+            line-height: 30px;
+            margin-bottom: 38px;
+            font-size: 14px;
+        }
+
+        .footer-content .items li,
+        a {
+            list-style: none;
+            /* text-decoration: none; */
+            color: #ffffffa8;
+        }
+
+        .footer-content .language {
+            margin: -41px 251px;
+        }
+
+        .footer-content .language select {
+            width: 126px;
+            height: 37px;
+            text-align: center;
+            padding-left: 24px;
+            margin-top: 0px;
+            font-size: 19px;
+            font-weight: 400;
+            font-family: system-ui;
+            background-color: #0d0d0dab;
+            color: white;
+            border: 1px solid #ffffff40;
+            border-radius: 9px;
+            margin-bottom: 26px;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="items">
+            <div class="logo">
+                <img src="image/images-removebg-preview.png" alt="" width="165px">
+            </div>
+            <div class="language">
+                <select name="">
+                    <option value="">English</option>
+                    <option value="">हिन्दी</option>
+                    <i class='bx bx-world'></i>
+                </select>
+            </div>
+            <div class="button">
+                <button>Sigh In</button>
+            </div>
+        </div>
+    </nav>
+    <!-- banner start -->
+    <div class="banner">
+        <h1>
+            Unlimited movies, TV shows and more</h1>
+        <h2>Watch anywhere. Cancel anytime.</h2>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+        <input type="text" placeholder="Email address">
+        <button>Get Started</button>
+
+    </div>
+    <!-- banner end -->
+
+    <!-- advertise start -->
+    <div class="advertise">
+        <div class="box1">
+            <img src="image/tv.png" alt="" width="561px" ;>
+            <div class="video-1">
+                <video
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                    type="video/mp4" loop="" muted="" autoplay="">
+                </video>
+            </div>
+        </div>
+        <div class="box2">
+            <h1>Enjoy on your TV</h1>
+            <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
+        </div>
+    </div>
+
+    <div class="advertise-item2">
+        <div class="box1">
+            <img src="image/device-pile.png" alt="" width="721px;">
+            <div class="video-2">
+                <video
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+                    autoplay="" loop="" muted=""></video>
+            </div>
+        </div>
+        <div class="box2">
+            <h1>Watch everywhere</h1>
+            <h2>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</h2>
+        </div>
+    </div>
+
+    <div class="advertise">
+        <div class="box1">
+            <img src="image/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png"
+                alt="" width="width: 568px;">
+        </div>
+        <div class="box2">
+            <h1>Create profiles for kids</h1>
+            <h2>Send children on adventures with their favourite characters in a space made just for them—free with your
+                membership.</h2>
+        </div>
+    </div>
+
+    <div class="advertise-item2">
+        <div class="box1">
+            <img src="image/mobile-0819.jpg" alt="">
+            <div class="download">
+                <img src="image/boxshot.png" alt="">
+                <h1>Stranger Things</h1>
+                <h2>Downloading...</h2>
+            </div>
+            <div class="gif">
+                <img src="image/download-icon.gif" alt="" width="63px" ;>
+            </div>
+
+        </div>
+        <div class="box2">
+            <h1>Download your shows to watch offline</h1>
+            <h2>Watch on a aeroplane, train or submarine...</h2>
+        </div>
+    </div>
+
+    <!-- advertise end -->
+
+    <!-- log in start -->
+    <div class="log-in">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+        <input type="text" placeholder="Email address">
+        <button>Get Started</button>
+    </div>
+    <!-- log in end -->
+
+    <!-- footer start -->
+    <div class="footer-content">
+        <div class="contact">
+            Questions? Call
+            <a href="">1-844-505-2993</a>
+        </div>
+        <div class="items">
+
+            <div class="item1">
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Investor Relations</a></li>
+                <li><a href="">Buy Gift Cards</a></li>
+                <li><a href="">Cookie Preferences</a></li>
+                <li><a href="">Legal Notices</a></li>
+            </div>
+            <div class="item2">
+                <li><a href="">Help Centre</a></li>
+                <li><a href="">Jobs</a></li>
+                <li><a href="">Ways to Watch</a></li>
+                <li><a href="">Corporate Information</a></li>
+                <li><a href="">Only on Netflix</a></li>
+            </div>
+            <div class="item3">
+                <li><a href="">Account</a></li>
+                <li><a href="">Netflix Shop</a></li>
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Do Not Sell or Share My Personal Information</a></li>
+            </div>
+            <div class="item4">
+                <li><a href="">Media Centre</a></li>
+                <li><a href="">Redeem Gift Cards</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Speed Test</a></li>
+                <li><a href="">Ad Choices</a></li>
+            </div>
+
+        </div>
+
+        <div class="language">
+            <select name="">
+                <option value="">English</option>
+                <option value="">हिन्दी</option>
+            </select>
+            <a href="">Netflix India</a>
+        </div>
+
+    </div>
+    <!-- footer end -->
+</body>
+
+</html>

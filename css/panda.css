@@ -1,0 +1,812 @@
+/* about panda start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 92px 5px 136px;
+    margin-top: 8px;
+    /* position: fixed;
+    right: 0;
+    left: 0;
+    top: 0; */
+    z-index: -1;
+    position: sticky;
+    top: 0;
+
+
+}
+
+nav .menu a {
+    font-weight: bold;
+    font-family:  sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+.menu button {
+
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 40px;
+    height: 37px;
+    width: 150px;
+    color: white;
+    background: #ff2b85;
+
+}
+
+.banner {
+    background: url(../image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 429px;
+    margin-top: 8px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.banner h2 {
+    font-family: sans-serif;
+    font-size: 54px;
+    padding: 148px 148px;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: -1px 6px 17px black
+}
+
+.news h2 {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    margin-left: 162px;
+    line-height: 43px;
+    color: #343b46;
+    margin-top: 71px;
+    font-family: system-ui;
+}
+
+.news p {
+    font-size: 16px;
+    height: 199px;
+    width: 710px;
+    margin: 11px 0px 3px 160px;
+    font-family: system-ui;
+    color: #343b46;
+}
+
+.poster {
+    width: 100%;
+    height: 392px;
+    background: #f5f5f6;
+    margin-top: 65px;
+
+}
+
+.poster img {
+    margin-left: 753px;
+    height: 390px;
+    width: 621px
+}
+
+.poster h3 {
+    font-size: 29px;
+    font-family: system-ui;
+    color: #343b46;
+    margin: -264px 0px 17px 152px;
+}
+
+.poster p {
+    margin: -2px 0px 0px 154px;
+    width: 414px;
+    font-family: system-ui;
+    color: #343b46;
+}
+
+.title h3 {
+
+    font-family: system-ui;
+    font-size: 48px;
+    color: #343b46;
+    margin: 79px 0 0 616px;
+}
+
+.value img {
+    margin: 4px 0 0 266px;
+}
+
+.value h2 {
+    font-size: 36px;
+    margin: -439px 2px 37px 777px;
+    width: 261px;
+    font-family: system-ui;
+    color: #343b46;
+    font-weight: bold;
+}
+
+.value p {
+    margin: -17px 0 0 774px;
+    width: 308px;
+    font-family: system-ui;
+    word-spacing: 2px;
+}
+
+.join {
+
+    width: 100%;
+    margin: 75px 0 0 0;
+    height: 826px;
+    background: #f5f5f6;
+}
+
+.join img {
+    height: 415px;
+    margin: 68px 0px 0 755px;
+    width: 649px;
+}
+
+.join h2 {
+    font-family: system-ui;
+    color: #343b46;
+    font-size: 42px;
+    margin: -322px 0 0 137px;
+}
+
+.join p {
+    font-family: system-ui;
+    color: #343b46;
+    width: 520px;
+    margin: 25px 0 0 135px;
+}
+
+.join button {
+    border-radius: 40px;
+    margin: 42px 0 0 153px;
+    height: 51px;
+    width: 148px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: system-ui;
+    background: #ff2b85;
+    border: 1px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-content {
+    background: black;
+    font-family: system-ui;
+    position: absolute;
+    right: 0;
+    left: 0;
+    /* bottom: 0; */
+    padding: 59px 0px 0px 71px;
+    margin-top: 49px;
+
+}
+
+.footer-content .logo {
+    margin-bottom: 50px;
+    padding-left: 52px;
+}
+
+.footer-content .items {
+    color: white;
+    display: flex;
+    gap: 216px;
+    margin-left: 81px;
+}
+
+.footer-content .h4 {
+    margin-bottom: 33px;
+}
+
+.footer-content .copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 81px;
+}
+
+.footer-content .items li {
+    list-style: none;
+}
+
+.footer-content .items li a {
+    text-decoration: none;
+    color: white;
+}
+.footer-content .items h4{
+    color: white;
+}
+.footer-content .copyright{
+    color: white;
+}
+
+/* about panda end */
+/* home panda start */
+.bannerA {
+    background: url(../image/360_F_335617818_D6XfmNhtCyDRTOvK9GXFkNYs3nyLKvfO.jpg);
+    width: 100%;
+    height: 429px;
+    margin-top: 8px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bannerA h2 {
+    font-family: sans-serif;
+    font-size: 62px;
+    padding: 197px 128px;
+    color: white;
+    letter-spacing: -1px;
+    text-shadow: -1px 6px 17px black;
+    font-weight: 700;
+}
+
+.newA p {
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    margin-left: 162px;
+    line-height: 50px;
+    color: #343b46;
+    margin-top: 78px;
+    font-family: system-ui;
+    width: 1000px;
+}
+
+.posterA {
+    width: 100%;
+    height: 392px;
+    /* background: #f5f5f6; */
+    margin-top: 65px;
+
+}
+
+.posterA img {
+    margin-left: 753px;
+    height: 390px;
+    width: 621px;
+    margin-left: 158px;
+}
+
+.posterA h3 {
+    font-size: 45px;
+    font-family: system-ui;
+    color: #343b46;
+    margin: -305px 0px 25px 870px;
+    line-height: 46px;
+}
+
+.posterA p {
+    margin: -6px 0 0 872px;
+    width: 480px;
+    font-family: system-ui;
+    color: #343b46;
+}
+
+.posterA button {
+    margin: 39px 0 0 887px;
+    height: 51px;
+    width: 149px;
+    border-radius: 56px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background: #ff2b85;
+    color: white;
+    border: 1px;
+    cursor: pointer;
+}
+
+.posterAA img {
+    height: 374px;
+    margin: 140px 0px 0px 778px;
+    width: 621px;
+}
+
+.posterAA h3 {
+    font-size: 45px;
+    font-family: system-ui;
+    font-weight: 700;
+    margin: -321px 0 0 134px;
+    color: #343b46
+}
+
+.posterAA p {
+    width: 529px;
+    font-family: system-ui;
+    margin: 7px 0 0 141px;
+    color: #343b46;
+}
+
+.imglink img {
+    height: 56px;
+    margin: 41px -163px 0 164px;
+    cursor: pointer;
+
+}
+
+.poster3 img {
+    eight: 374px;
+    width: 597px;
+    margin: 237px 0 0 165px;
+}
+
+.poster3 h3 {
+    font-family: system-ui;
+    font-weight: 700;
+    font-size: 40px;
+    margin: -341px 0 0 857px;
+    color: #343b46;
+}
+
+.poster3 p {
+    width: 442px;
+    margin: 20px 0 0 860px;
+    font-family: system-ui;
+    color: #343b46;
+}
+
+.poster3 button {
+    margin: 49px 0 0 856px;
+    height: 49px;
+    width: 115px;
+    border: 1px;
+    border-radius: 38px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    background: #ff2b85;
+    cursor: pointer;
+}
+
+.centernote h3 {
+    font-size: 38px;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    text-align: end; 
+    line-height: 54px;
+    color: #343b46;
+    margin-top: 77px;
+    font-family: system-ui;
+    width: 1000px;
+    margin-top: 203px;
+}
+
+.centernote p {
+    font-family: system-ui;
+    margin: 10px 0 0 347px;
+    font-size: 16px;
+    color: #343b46;
+}
+
+.last img {
+    margin: 206px 0 53px 785px;
+}
+
+.last h3 {
+    font-family: system-ui;
+    font-size: 54px;
+    font-weight: 700;
+    color: #343b46;
+    margin: -326px 0 0 94px
+}
+
+.last p {
+    width: 514px;
+    font-family: system-ui;
+    margin: 22px 0 0 95px;
+    color: #343b46;
+}
+
+.last button {
+    margin: 36px 0 42px 94px;
+    height: 51px;
+    width: 130px;
+    border: 1px;
+    border-radius: 45px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    background: #ff2b85;
+    cursor: pointer;
+}
+
+
+/* homa panda end */
+
+/* contact panda start */
+
+/* nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 69px;
+    margin-top: 8px;
+
+
+} */
+
+.menu a {
+    font-weight: bold;
+
+    font-family: SemiBold, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.menu button {
+
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 40px;
+    height: 37px;
+    width: 150px;
+    color: white;
+    background: #ff2b85;
+}
+
+.bannerB {
+    background: url(../image/fp-contact-1-1920x539.jpeg);
+    width: 100%;
+    height: 429px;
+    margin-top: 8px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bannerB h2 {
+    font-family: sans-serif;
+    font-size: 54px;
+    padding: 246px 176px;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: -1px 6px 17px black;
+}
+
+.newsB h2 {
+    font-size: 21px;
+    font-family: sans-serif;
+    color: #343b46;
+    margin: 90px 0 0 200px;
+}
+
+.form h2 {
+    font-size: 16px;
+    font-family: system-ui;
+    color: #343b46;
+    margin: 20px 0 0 200px;
+    font-weight: 500;
+}
+
+.box {
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: 34px;
+    width: 250px;
+    margin: 4px 0px 0 200px;
+    cursor: text;
+}
+
+.box img {
+    margin: -9px 0 0 762px;
+    height: 221px;
+}
+
+.box1 {
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: 34px;
+    width: 250px;
+    margin: -34px 0px 0 468px;
+    cursor: text;
+}
+
+.box h2 {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    margin: 34px 0 0 1px;
+    color: #343b46;
+    letter-spacing: 1px;
+
+}
+
+.box1 h2 {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    margin: 34px 0 0 1px;
+    color: #343b46;
+    letter-spacing: 1px
+}
+
+.box2 {
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: 34px;
+    width: 519px;
+    margin: 60px 0px 0 200px;
+    cursor: text;
+}
+
+.box2 h2 {
+    font-size: 16px;
+    font-family: system-ui;
+    color: #343b46;
+    margin: -26px 0 0 2px;
+    font-weight: 500;
+}
+
+.box3 {
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: 136px;
+    width: 519px;
+    margin: 43px 0px 0 200px;
+    cursor: text;
+}
+
+.box3 h2 {
+    font-size: 16px;
+    font-family: system-ui;
+    color: #343b46;
+    margin: -29px 0 0 2px;
+    font-weight: 500;
+}
+
+.box3 button {
+    margin: 172px 0 0 5px;
+    height: 42px;
+    width: 116px;
+    border-radius: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    background: #ff2b85;
+    border: 1px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.line {
+    width: 100%;
+    height: 700px;
+    background-color: #f5f5f6;
+    margin: 168px 0 0 0px;
+}
+
+.line h2 {
+    padding: 0;
+    box-sizing: border-box;
+    color: #343b46;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 251px;
+    padding-top: 85px;
+}
+
+
+
+
+/* contact panda end */
+/* pandaADS start */
+
+/* nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0px 69px;
+    margin-top: 8px;} */
+
+
+.menu a {
+    font-weight: bold;
+
+    font-family: SemiBold, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.menu button {
+
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 40px;
+    height: 37px;
+    width: 150px;
+    color: white;
+    background: #ff2b85;
+}
+
+.bannerADS {
+    background: url(../image/02-1-e1680017639907-1620x1080.jpg);
+    width: 100%;
+    height: 511px;
+    margin-top: 8px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bannerADS h2 {
+    font-family: sans-serif;
+    font-size: 62px;
+    padding: 108px 0 0 124px;
+    color: white;
+    /* letter-spacing: 3px; */
+    text-shadow: -1px 6px 17px black;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.bannerADS p {
+    padding: 10px 0 0 124px;
+    font-family: system-ui;
+    width: 643px;
+    color: white;
+}
+
+.bannerADS button {
+    height: 42px;
+    width: 170px;
+    border-radius: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    background: #ff2b85;
+    border: 1px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    margin: 29px 0 0 129px;
+    #f5f5f6;
+}
+
+.middle {
+    width: 100%;
+    height: 777px;
+    background: #f0f2f4;
+    margin: 45px 0 0 0px;
+}
+
+.bottom {
+    margin: 46px 0 0 793px;
+}
+
+.bottom h2 {
+    margin: -413px 0 0 -658px;
+    font-size: 47px;
+    font-family: sans-serif;
+    color: #343b46;
+}
+
+.bottom h3 {
+    margin: 51px 0 -4px -659px;
+    font-family: sans-serif;
+    font-size: 27px;
+    color: #343b46;
+}
+
+.bottom p {
+    width: 533px;
+    margin: 21px 0 -32px -659px;
+    font-family: sans-serif;
+    color: #343b46;
+}
+
+.gallery-item {
+    width: 100%;
+    height: 300px;
+    background-color: #f0f2f4;
+    margin-top: 145px;
+}
+
+.gallery-item h2 {
+    font-size: 47px;
+    font-family: system-ui;
+    color: #343b46;
+    margin: 0px 0 0 555px;
+    padding-top: 73px;
+}
+.gallery-item img{
+    width: 7%;
+    float: left;
+    margin-top: 23px;
+    padding: 1px 10px 0px 5px;
+
+}
+.post img{
+    margin: 48px 0 0 788px;
+    width: 42%;
+    height: 385px;
+}
+.post h2{
+    margin: -288px 0 0 159px;
+    font-family: sans-serif;
+    font-size: 27px;
+    color: #343b46;
+}
+.post p{
+    width: 467px;
+    font-family: sans-serif;
+    color: #343b46;
+    margin: 21px 0 0 160px;
+}
+.form {
+    width: 100%;
+    height: 800px;
+    background: #f0f2f4;
+    margin-top: 145px;
+}
+.form h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    padding: 88px 0 0 0px;
+    margin-left: 131px;
+    color: #343b46;
+}
+.form input{
+    margin: 51px 0 0 136px;
+    width: 561px;
+    height: 40px;
+    border: 1px solid #8080809e;
+    border-radius: 4px;
+}
+.form h1{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #000000f0;
+    outline: none;
+    border: none
+}
+.form button{
+    height: 42px;
+    width: 123px;
+    border-radius: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    background: #ff2b85;
+    border: 1px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    margin: 32px 0 0 1274px;
+  
+}

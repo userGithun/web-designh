@@ -1,0 +1,210 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.a {
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+nav {
+    background-color: #088cfb;
+    width: 100%;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 100px;
+    /* background: white; */
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+
+nav .menu a {
+    /* font-family: none; */
+    font-weight: 700;
+    font-family: system-ui;
+    margin: 0 5px;
+    color:white;
+    text-decoration: none;
+
+}
+
+.banner {
+    /* background: url(../image/p1030p1exz4ewdnwhrcn.jpg); */
+    background-image: linear-gradient(rgba(0 ,0 ,0 , 0.9), rgba( 0 ,0 ,0 , 0.5 )) ,url(../image/p1030p1exz4ewdnwhrcn.jpg);
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+ .image{
+    width: 41px;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 169px;
+    background-color: #27314d;
+    margin: auto;
+    width: 58%;
+}
+.banner input{
+    width: 600px;
+    height: 38px;
+    background: rgba(0 ,0 ,0 , 0.7);
+    border: medium;
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 7px;
+   margin-top: 184px;
+}
+::placeholder{
+    color: white;
+}
+.news{
+    background-color: #088cfb;
+    width: 100%;
+    height: 45px;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-top: 3px;
+    text-shadow: 3px 3px 3px black;
+}
+.about{
+    padding:100px 300px ;
+    text-align: center;
+}
+.about h3{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 3px;
+    margin-bottom: 13px;
+}
+.about p{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 26px;
+    font-family: cursive;
+    margin-bottom: 13px;
+}
+.about button{
+    padding: 13px 48px;
+    font-size: 16px;
+    background: #088cfb;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Press{ padding: 225px 200px;
+    background: url(../image/caption\ \(1\).jpg);
+width: 100%;
+height: 653px;
+background-position: center;
+background-size: cover;
+text-align: center;
+margin-bottom: 14px;
+font-size: 42px;
+letter-spacing: 3px;
+font-family: cursive;
+background-attachment: fixed;
+   
+} 
+.Press p{
+       font-size: 18px;
+    line-height: 31px;
+    background: #a4cbe2;
+    margin-bottom: 2px;
+}
+.Press button{
+    width: 168px;
+    height: 39px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px #088cfb;
+    border-radius: 9px;
+    background: #088cfb;
+    color: white;
+    cursor: pointer;
+}
+.team{
+    padding: 100px 200px ;
+    background: url(../image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+.contact{
+padding:100px 200px;
+background: #088cfb;
+width: 100%;
+height: 400px;
+background-position: center;
+background-size: cover;
+text-align: center;
+}
+ /* footer start */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content {
+    background: black;
+    font-family: system-ui;
+    position: absolute;
+    right: 0;
+    left: 0;
+    /* bottom: 0; */
+    padding: 59px 0px 0px 71px;
+
+}
+
+.footer-content .logo {
+    margin-bottom: 50px;
+    padding-left: 52px;
+}
+
+.footer-content .items {
+    color: white;
+    display: flex;
+    gap: 216px;
+    margin-left: 81px;
+}
+
+.footer-content .h4 {
+    margin-bottom: 33px;
+}
+
+.footer-content .copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 81px;
+}

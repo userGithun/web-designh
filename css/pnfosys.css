@@ -1,0 +1,44 @@
+/* home panda start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 201px;
+    z-index: 10;
+}
+.menu a{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    margin: 0 13px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.menu button{
+    height: 44px;
+    width: 152px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #ff2b85;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: -1;
+}
+.banner .video{
+    z-index: -1;
+    position: relative;
+    top: -376px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
