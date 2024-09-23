@@ -35,10 +35,18 @@ a:hover{
     z-index: -1;
 }
 .banner .video{
-    z-index: -1;
-    position: relative;
-    top: -376px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* z-index: -1; */
+    /* position: relative; */
+    /* top: -376px; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    height: 100px;
+    
+}
+.vd{
+height:500px;
+width: 100%;
+
 }
